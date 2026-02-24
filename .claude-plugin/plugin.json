@@ -11,7 +11,10 @@
   "mcpServers": {
     "rf-o-compliance": {
       "type": "http",
-      "url": "https://api.rmf-o.com/mcp"
+      "url": "https://api.rmf-o.com/mcp",
+      "oauth": {
+        "callbackPort": 3118
+      }
     }
   }
 }
