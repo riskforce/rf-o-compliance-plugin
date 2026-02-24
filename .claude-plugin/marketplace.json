@@ -1,0 +1,38 @@
+{
+  "name": "riskforce",
+  "owner": {
+    "name": "Risk Force Operations",
+    "email": "support@riskforce.ai"
+  },
+  "metadata": {
+    "description": "Risk Force Operations compliance automation plugins for Claude Code",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "rf-o-compliance",
+      "source": {
+        "source": "github",
+        "repo": "riskforce/rf-o-compliance-plugin",
+        "ref": "main"
+      },
+      "description": "Analyze repositories for NIST 800-53 Rev5 compliance controls and push structured findings to RF-O",
+      "version": "1.0.0",
+      "author": {
+        "name": "Risk Force Operations"
+      },
+      "homepage": "https://riskforce.ai",
+      "repository": "https://github.com/riskforce/rf-o-compliance-plugin",
+      "license": "MIT",
+      "keywords": ["compliance", "nist", "rmf", "800-53", "security", "assessment"],
+      "category": "security",
+      "commands": ["./skills/assess-control/SKILL.md"],
+      "mcpServers": {
+        "rf-o-compliance": {
+          "type": "http",
+          "url": "https://api.rmf-o.com/mcp"
+        }
+      }
+    }
+  ]
+}

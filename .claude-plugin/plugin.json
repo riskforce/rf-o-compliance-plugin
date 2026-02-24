@@ -1,0 +1,17 @@
+{
+  "name": "rf-o-compliance",
+  "description": "Analyze repositories for NIST 800-53 Rev5 compliance controls and push structured findings to RF-O (Risk Force Orchestrator)",
+  "version": "1.0.0",
+  "author": {
+    "name": "Risk Force Operations"
+  },
+  "repository": "https://github.com/riskforce/rf-o-compliance-plugin",
+  "license": "MIT",
+  "commands": ["./skills/assess-control/SKILL.md"],
+  "mcpServers": {
+    "rf-o-compliance": {
+      "type": "http",
+      "url": "https://api.rmf-o.com/mcp"
+    }
+  }
+}

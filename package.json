@@ -1,0 +1,12 @@
+{
+  "name": "rf-o-compliance-plugin",
+  "version": "1.0.0",
+  "description": "Claude Code plugin for automated NIST 800-53 Rev5 compliance assessment",
+  "type": "module",
+  "private": false,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RiskForceOps/rf-o-compliance-plugin"
+  }
+}

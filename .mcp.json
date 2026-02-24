@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "rf-o-compliance": {
+      "type": "http",
+      "url": "https://api.rmf-o.com/mcp"
+    }
+  }
+}
