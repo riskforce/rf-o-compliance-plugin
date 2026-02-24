@@ -12,8 +12,8 @@
     {
       "name": "rf-o-compliance",
       "source": {
-        "source": "github",
-        "repo": "riskforce/rf-o-compliance-plugin",
+        "source": "url",
+        "url": "https://github.com/riskforce/rf-o-compliance-plugin.git",
         "ref": "main"
       },
       "description": "Analyze repositories for NIST 800-53 Rev5 compliance controls and push structured findings to RF-O",
